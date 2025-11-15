@@ -1,0 +1,46 @@
+# bashrc
+
+alias ls='eza --icons=always --group-directories-first'
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -a1'
+
+alias nvi=nvim
+alias nv=nvim
+
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gd='git diff'
+
+alias sb='soft browse'
+
+PS1='\w > '
+
+export PATH=$HOME/Applications:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.local/share/gem/ruby/3.4.0/bin:$HOME/.local/bin:$PATH
+export BAT_THEME="Catppuccin Macchiato"
+export EDITOR="/usr/bin/nvim"
+
+eval $(starship init bash)
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export HOMEBREW_NO_ENV_HINTS=1
+evoke list
+
+export FZF_DEFAULT_OPTS=" \
+--color=fg:#CAD3F5,header:#ED8796,info:#C6A0F6,pointer:#F4DBD6 \
+--color=marker:#B7BDF8,fg+:#CAD3F5,prompt:#C6A0F6,hl+:#ED8796 \
+--color=selected-bg:#494D64 \
+--color=border:#6E738D,label:#CAD3F5"
+
+function yz() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+alias yazi=yz
+alias y=yz
