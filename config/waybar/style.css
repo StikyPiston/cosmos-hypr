@@ -137,13 +137,13 @@ button:hover {
 }
 
 #temperature {
-		color: @teal;
-		border-bottom: 2px solid @teal;
+		color: @sky;
+		border-bottom: 2px solid @sky;
 }
 
 #custom-pacman {
-    color: @sky;
-    border-bottom: 2px solid @sky;
+    color: @teal;
+    border-bottom: 2px solid @teal;
     padding-top: 2px;
     padding-bottom: 2px;
 }
