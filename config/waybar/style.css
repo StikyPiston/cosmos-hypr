@@ -1,4 +1,4 @@
-@import "macchiato.css"; 
+@import "mocha.css"; 
 
 * {
     font-family: "Martian Mono Condensed Semibold";
@@ -10,7 +10,7 @@
 window#waybar {
     background: transparent;
     background-color: @crust;
-    color: @lavender;
+    color: @blue;
     transition-property: background-color;
     transition-duration: 0.1s;
     border-bottom: 1px solid @surface0;
@@ -30,8 +30,8 @@ button {
 
 button:hover {
     background: inherit;
-    color: @lavender;
-    border-top: 2px solid @lavender;
+    color: @blue;
+    border-top: 2px solid @blue;
 }
 
 #workspaces button {
@@ -40,18 +40,18 @@ button:hover {
 
 #workspaces button.focused {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @lavender;
-    border-top: 2px solid @lavender;
+    color: @blue;
+    border-top: 2px solid @blue;
 }
 
 #workspaces button.active {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @lavender;
-    border-top: 2px solid @lavender;
+    color: @blue;
+    border-top: 2px solid @blue;
 }
 
 #workspaces button.urgent {
-    background-color: @aurora1;
+    background-color: @red;
 }
 
 #pulseaudio,
@@ -76,18 +76,18 @@ button:hover {
 }
 
 #clock {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
+    color: @blue;
+    border-bottom: 2px solid @blue;
 }
 
 #clock.date {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
+    color: @blue;
+    border-bottom: 2px solid @blue;
 }
 
 #pulseaudio {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
+    color: @sapphire;
+    border-bottom: 2px solid @sapphire;
 }
 
 #network {
@@ -105,8 +105,8 @@ button:hover {
 }
 
 #battery {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
+    color: @sky;
+    border-bottom: 2px solid @sky;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -127,23 +127,23 @@ button:hover {
 }
 
 #mpris {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
+    color: @peach;
+    border-bottom: 2px solid @peach;
 }
 
 #tray {
-    color: @lavender;
-	border-bottom: 2px solid @lavender;
+    color: @yellow;
+	border-bottom: 2px solid @yellow;
 }
 
 #temperature {
-		color: @lavender;
-		border-bottom: 2px solid @lavender;
+		color: @teal;
+		border-bottom: 2px solid @teal;
 }
 
 #custom-pacman {
-    color: @lavender;
-    border-bottom: 2px solid @lavender;
+    color: @sky;
+    border-bottom: 2px solid @sky;
     padding-top: 2px;
     padding-bottom: 2px;
 }
