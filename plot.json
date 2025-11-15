@@ -19,6 +19,7 @@
 		{ "source": "config/lf", "target": "~/.config/lf" },
 		{ "source": "config/fuzzel", "target": "~/.config/fuzzel" },
 		{ "source": "scripts", "target": "~/.scripts" },
-		{ "source": "config/yazi", "target": "~/.config/yazi" }
+		{ "source": "config/yazi", "target": "~/.config/yazi" },
+		{ "source": "config/btop", "target": "~/.config/btop" }
 	]
 }
