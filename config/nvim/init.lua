@@ -62,7 +62,7 @@ require("mason").setup()
 
 vim.lsp.enable({ "nixd", "ruby-lsp" })
 
-vim.cmd.colorscheme "catppuccin-macchiato"
+vim.cmd.colorscheme "catppuccin-mocha"
 
 map('i', '<A-o>', "<C-x><C-o>", opts)
 
