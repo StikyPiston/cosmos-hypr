@@ -13,3 +13,6 @@ rm -f "$TARGET"
 
 # create new symlink
 ln -s "$random_file" "$TARGET"
+
+pkill hyprpaper
+hyprpaper &
