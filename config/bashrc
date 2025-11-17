@@ -27,6 +27,7 @@ eval $(starship init bash)
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export HOMEBREW_NO_ENV_HINTS=1
 evoke list
+redcards amount
 
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
