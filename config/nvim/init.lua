@@ -55,7 +55,8 @@ vim.pack.add({
 	"https://github.com/charmbracelet/tree-sitter-vhs",
 	"https://github.com/folke/flash.nvim",
 	"https://github.com/gisketch/triforce.nvim",
-	"https://github.com/nvzone/volt"
+	"https://github.com/nvzone/volt",
+	"https://github.com/apple/pkl-neovim"
 })
 
 require("mason").setup()
@@ -108,3 +109,9 @@ map('n', '<C-Right>', '<C-w>l')
 
 -- Set up flash.nvim
 map('n', '<C-s>', function() require('flash').jump() end)
+
+-- Set up pkl lsp
+vim.g.pkl_neovim = {
+		start_command = { "pkl-lsp" },
+		pkl_cli_path  = "/home/linuxbrew/.linuxbrew/bin/pkl"
+}

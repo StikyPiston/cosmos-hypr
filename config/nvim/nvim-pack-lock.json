@@ -64,6 +64,10 @@
       "rev": "200df01",
       "src": "https://github.com/stevearc/oil.nvim"
     },
+    "pkl-neovim": {
+      "rev": "db4a776c59f7a195ba25c8a1e3e0908c4ef2e765",
+      "src": "https://github.com/apple/pkl-neovim"
+    },
     "plenary.nvim": {
       "rev": "b9fd522",
       "src": "https://github.com/nvim-lua/plenary.nvim"
