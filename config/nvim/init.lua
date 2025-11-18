@@ -109,9 +109,3 @@ map('n', '<C-Right>', '<C-w>l')
 
 -- Set up flash.nvim
 map('n', '<C-s>', function() require('flash').jump() end)
-
--- Set up pkl lsp
-vim.g.pkl_neovim = {
-		start_command = { "pkl-lsp" },
-		pkl_cli_path  = "/home/linuxbrew/.linuxbrew/bin/pkl"
-}
