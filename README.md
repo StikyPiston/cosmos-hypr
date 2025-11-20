@@ -10,13 +10,13 @@ There are *two methods* to install this rice
 
 ### Method 1 - Using [Rancher](https://codeberg.org/StikyPiston/rancher)
 
-Firstly, ensure you have **Rancher** (and **Ruby**) installed. Install **Rancher** with:
+Firstly, ensure you have **Dotkeeper** installed. Install **Dotkeeper** with:
 
 ```bash
-curl -fsSL https://codeberg.org/StikyPiston/rancher/raw/branch/main/onlineinstall.sh | sh
+brew install stikypiston/formulae/dotkeeper
 ```
 
-Run `rancherfetch https://codeberg.org/stikypiston/cosmos-hypr` to install the rice.
+Then, run `git clone https://codeberg.org/StikyPiston/cosmos-hypr ~/.dotkeep/cosmos-hypr`
 
 To activate the rice, ensure all dependencies are installed, and run `rancher activate cosmos-hypr`
 
