@@ -16,6 +16,10 @@ alias gd='git diff'
 
 alias sb='soft browse'
 
+alias lg='lazygit'
+
+alias man='tldr'
+
 PS1='\w > '
 
 export PATH=$HOME/Applications:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.local/share/gem/ruby/3.4.0/bin:$HOME/.local/bin:$PATH
