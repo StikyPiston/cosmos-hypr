@@ -4,24 +4,6 @@ local opts = { noremap = true, silent = true }
 
 vim.o.number = true
 
--- Normal mode
-map('n', '8', 'k', opts)
-map('n', '5', 'j', opts)
-map('n', '4', 'h', opts)
-map('n', '6', 'l', opts)
-
--- Visual mode
-map('v', '8', 'k', opts)
-map('v', '5', 'j', opts)
-map('v', '4', 'h', opts)
-map('v', '6', 'l', opts)
-
--- Operator mode
-map('o', '8', 'k', opts)
-map('o', '5', 'j', opts)
-map('o', '4', 'h', opts)
-map('o', '6', 'l', opts)
-
 -- Map insert key
 map('n', ';', 'i', opts)
 
@@ -110,3 +92,6 @@ map('n', '<C-Right>', '<C-w>l')
 
 -- Set up flash.nvim
 map('n', '<C-s>', function() require('flash').jump() end)
+
+-- Set up indent-blankline.nvim
+require('ibl').setup()
