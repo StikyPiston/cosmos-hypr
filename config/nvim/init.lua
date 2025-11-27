@@ -56,7 +56,8 @@ vim.pack.add({
 	"https://github.com/folke/flash.nvim",
 	"https://github.com/gisketch/triforce.nvim",
 	"https://github.com/nvzone/volt",
-	"https://github.com/apple/pkl-neovim"
+	"https://github.com/apple/pkl-neovim",
+	"https://github.com/lukas-reineke/indent-blankline.nvim"
 })
 
 require("mason").setup()
