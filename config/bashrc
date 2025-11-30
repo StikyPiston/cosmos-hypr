@@ -33,6 +33,7 @@ export HOMEBREW_NO_ENV_HINTS=1
 eval "$(fzf --bash)"
 evoke list
 redcards amount
+printf "󰆈  %s\n" "$(shuf -n 1 ~/.scripts/motds.txt)"
 [[ $- == *i* ]] && source /usr/share/blesh/ble.sh
 
 export FZF_DEFAULT_OPTS=" \
