@@ -43,6 +43,26 @@ vim.pack.add({
 	"https://github.com/MunifTanjim/nui.nvim"
 })
 
+require("nvim-treesitter.configs").setup({
+		ensure_installed = { "c", "lua", "swift", "ruby", "hyprlang", "bash", "go", "gomod", "gosum", "kdl", "pkl", "markdown", "markdown_inline", "python", "vhs" },
+
+		sync_install = false,
+
+		auto_install = true,
+
+		highlight = {
+				enable = true,
+		},
+
+		incremental_selection = {
+				enable = true,
+		},
+
+		indent = {
+				enable = true,
+		},
+})
+
 require("mason").setup()
 
 vim.lsp.enable({ "nixd", "ruby-lsp" })
