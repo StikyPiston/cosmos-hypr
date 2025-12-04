@@ -102,8 +102,8 @@ vim.api.nvim_set_hl(0, "LineNr",      { bg = "#1e2030" })
 vim.api.nvim_set_hl(0, "SignColumn",  { bg = "#1e2030" })
 
 -- Set up splits
-map('n', 'hT', vim.cmd.split)
-map('n', 'hN', vim.cmd.vsplit)
+map('n', 'hK', vim.cmd.split)
+map('n', 'hL', vim.cmd.vsplit)
 
 -- Change focus
 map('n', '<C-Up>', '<C-w>k')
