@@ -157,3 +157,12 @@ vim.lsp.config("ruby-lsp", {
 })
 
 vim.lsp.enable("ruby-lsp")
+
+-- > Crystal LSP
+vim.lsp.config("crystalline", {
+		cmd = { 'crystalline' },
+		filetypes = { 'crystal' },
+		root_markers = { 'shard.yml', '.git' }
+})
+
+vim.lsp.enable("crystalline")
