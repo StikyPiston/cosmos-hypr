@@ -143,3 +143,17 @@ vim.lsp.config("lua_ls", {
 })
 
 vim.lsp.enable("lua_ls")
+
+-- > Ruby LSP
+vim.lsp.config("ruby-lsp", {
+		cmd = { "ruby-lsp" },
+		filetypes = { 'ruby', 'eruby' },
+		root_markers = { 'Gemfile', '.git' },
+		init_options = { fomatter = 'auto', },
+		reuse_client = function(client, config)
+				config.cmd_cwd = config.root_dir
+				return client.config.cmd_cwd == config.cmd_cwd
+		end,
+})
+
+vim.lsp.enable("ruby-lsp")
