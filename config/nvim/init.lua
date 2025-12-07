@@ -121,3 +121,6 @@ require('ibl').setup()
 
 -- Set up store.nvim
 require('store').setup()
+
+-- Set up eagle.nvim
+require('eagle').setup()
