@@ -12,6 +12,10 @@
       "rev": "0775e56",
       "src": "https://github.com/nvimdev/dashboard-nvim"
     },
+    "eagle.nvim": {
+      "rev": "41cb488fc097aadc22e8b5e0b9292ac7e4ee9918",
+      "src": "https://github.com/soulis-1256/eagle.nvim"
+    },
     "flash.nvim": {
       "rev": "fcea7ff",
       "src": "https://github.com/folke/flash.nvim"
@@ -83,6 +87,10 @@
     "render-markdown.nvim": {
       "rev": "691651d",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
+    "store.nvim": {
+      "rev": "df430716b095719f7221f2fb50be696879ca7c34",
+      "src": "https://github.com/alex-popov-tech/store.nvim"
     },
     "telescope.nvim": {
       "rev": "b4da76b",
