@@ -118,3 +118,6 @@ map('n', '<C-s>', function() require('flash').jump() end)
 
 -- Set up indent-blankline.nvim
 require('ibl').setup()
+
+-- Set up store.nvim
+require('store').setup()
