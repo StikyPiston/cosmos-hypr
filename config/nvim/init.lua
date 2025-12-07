@@ -12,25 +12,25 @@ vim.o.swapfile       = false
 vim.o.winborder      = "rounded"
 vim.o.clipboard      = "unnamedplus"
 vim.o.mousemoveevent = true
-vim.o.number = true
+vim.o.number         = true
 
 -- Bindings
-map('n', ';', 'i', opts)
-map('i', '<A-o>', "<C-x><C-o>", opts)
-map('n', 'tT', ':Oil<CR>')
-map('n', 'fF', ':Pick files<CR>')
-map('n', 'dD', ':Dashboard<CR>')
-map('n', 'pP', ':RenderMarkdown toggle<CR>')
-map('n', 'hH', ':tabNext<CR>')
-map('n', 'hE', ":tabedit ")
-map('n', 'gO', ":Obsidian")
-map('n', 'hK', vim.cmd.split)
-map('n', 'hL', vim.cmd.vsplit)
-map('n', '<C-Up>', '<C-w>k')
-map('n', '<C-Down>', '<C-w>j')
-map('n', '<C-Left>', '<C-w>h')
+map('n', ';',         'i', opts)
+map('i', '<A-o>',     '<C-x><C-o>', opts)
+map('n', 'tT',        ':Oil<CR>')
+map('n', 'fF',        ':Pick files<CR>')
+map('n', 'dD',        ':Dashboard<CR>')
+map('n', 'pP',        ':RenderMarkdown toggle<CR>')
+map('n', 'hH',        ':tabNext<CR>')
+map('n', 'hE',        ':tabedit ')
+map('n', 'gO',        ':Obsidian')
+map('n', 'hK',        vim.cmd.split)
+map('n', 'hL',        vim.cmd.vsplit)
+map('n', '<C-Up>',    '<C-w>k')
+map('n', '<C-Down>',  '<C-w>j')
+map('n', '<C-Left>',  '<C-w>h')
 map('n', '<C-Right>', '<C-w>l')
-map('n', '<C-s>', function() require('flash').jump() end)
+map('n', '<C-s>',     function() require('flash').jump() end)
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -105,7 +105,7 @@ require('ibl').setup()
 require('store').setup()
 require('eagle').setup({
 		keyboard_mode = true,
-		mouse_mode = true
+		mouse_mode    = true
 })
 
 -- Hijinks in LSP land
@@ -129,12 +129,12 @@ vim.lsp.enable("lua_ls")
 
 -- > Ruby LSP
 vim.lsp.config("ruby-lsp", {
-		cmd = { "ruby-lsp" },
-		filetypes = { 'ruby', 'eruby' },
+		cmd          = { "ruby-lsp" },
+		filetypes    = { 'ruby', 'eruby' },
 		root_markers = { 'Gemfile', '.git' },
-		init_options = { fomatter = 'auto', },
+		init_options = { formatter = 'auto', },
 		reuse_client = function(client, config)
-				config.cmd_cwd = config.root_dir
+				config.cmd_cwd               =  config.root_dir
 				return client.config.cmd_cwd == config.cmd_cwd
 		end,
 })
@@ -142,24 +142,24 @@ vim.lsp.enable("ruby-lsp")
 
 -- > Crystal LSP
 vim.lsp.config("crystalline", {
-		cmd = { 'crystalline' },
-		filetypes = { 'crystal' },
+		cmd          = { 'crystalline' },
+		filetypes    = { 'crystal' },
 		root_markers = { 'shard.yml', '.git' }
 })
 vim.lsp.enable("crystalline")
 
 -- > Hyprlang LSP
 vim.lsp.config('hyprls', {
-		cmd = { 'hyprls', '--stdio' },
-		filetypes = { 'hyprlang' },
+		cmd          = { 'hyprls', '--stdio' },
+		filetypes    = { 'hyprlang' },
 		root_markers = { '.git' }
 })
 vim.lsp.enable("hyprls")
 
 -- > Fish LSP
 vim.lsp.config("fish-lsp", {
-		cmd = { 'fish-lsp', 'start' },
-		filetypes = { 'fish' },
+		cmd          = { 'fish-lsp', 'start' },
+		filetypes    = { 'fish' },
 		root_markers = { 'config.fish', '.git' },
 })
 vim.lsp.enable("fish-lsp")
