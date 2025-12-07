@@ -8,14 +8,15 @@ vim.o.number = true
 map('n', ';', 'i', opts)
 
 -- Options
-vim.o.signcolumn  = "yes"
-vim.o.wrap        = false
-vim.o.tabstop     = 4
-vim.o.number      = true
-vim.o.smartindent = true
-vim.o.swapfile    = false
-vim.o.winborder   = "rounded"
-vim.o.clipboard   = "unnamedplus"
+vim.o.signcolumn     = "yes"
+vim.o.wrap           = false
+vim.o.tabstop        = 4
+vim.o.number         = true
+vim.o.smartindent    = true
+vim.o.swapfile       = false
+vim.o.winborder      = "rounded"
+vim.o.clipboard      = "unnamedplus"
+vim.o.mousemoveevent = true
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -66,8 +67,6 @@ require("nvim-treesitter.configs").setup({
 })
 
 require("mason").setup()
-
-vim.lsp.enable({ "nixd", "ruby-lsp" })
 
 vim.cmd.colorscheme "catppuccin-mocha"
 
