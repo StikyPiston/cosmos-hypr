@@ -175,3 +175,12 @@ vim.lsp.config('hyprls', {
 })
 
 vim.lsp.enable("hyprls")
+
+-- > Fish LSP
+vim.lsp.config("fish-lsp", {
+		cmd = { 'fish-lsp', 'start' },
+		filetypes = { 'fish' },
+		root_markers = { 'config.fish', '.git' },
+})
+
+vim.lsp.enable("fish-lsp")
