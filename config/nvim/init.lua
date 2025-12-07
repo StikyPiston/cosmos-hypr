@@ -103,7 +103,10 @@ require("oil").setup()
 require("render-markdown").setup()
 require('ibl').setup()
 require('store').setup()
-require('eagle').setup()
+require('eagle').setup({
+		keyboard_mode = true,
+		mouse_mode = true
+})
 
 -- Hijinks in LSP land
 
