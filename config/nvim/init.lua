@@ -2,11 +2,6 @@
 local map  = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
-vim.o.number = true
-
--- Map insert key
-map('n', ';', 'i', opts)
-
 -- Options
 vim.o.signcolumn     = "yes"
 vim.o.wrap           = false
@@ -17,6 +12,25 @@ vim.o.swapfile       = false
 vim.o.winborder      = "rounded"
 vim.o.clipboard      = "unnamedplus"
 vim.o.mousemoveevent = true
+vim.o.number = true
+
+-- Bindings
+map('n', ';', 'i', opts)
+map('i', '<A-o>', "<C-x><C-o>", opts)
+map('n', 'tT', ':Oil<CR>')
+map('n', 'fF', ':Pick files<CR>')
+map('n', 'dD', ':Dashboard<CR>')
+map('n', 'pP', ':RenderMarkdown toggle<CR>')
+map('n', 'hH', ':tabNext<CR>')
+map('n', 'hE', ":tabedit ")
+map('n', 'gO', ":Obsidian")
+map('n', 'hK', vim.cmd.split)
+map('n', 'hL', vim.cmd.vsplit)
+map('n', '<C-Up>', '<C-w>k')
+map('n', '<C-Down>', '<C-w>j')
+map('n', '<C-Left>', '<C-w>h')
+map('n', '<C-Right>', '<C-w>l')
+map('n', '<C-s>', function() require('flash').jump() end)
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -46,6 +60,7 @@ vim.pack.add({
 		"https://github.com/soulis-1256/eagle.nvim"
 })
 
+-- Treesitter Setup
 require("nvim-treesitter.configs").setup({
 		ensure_installed = { "c", "lua", "swift", "ruby", "hyprlang", "bash", "go", "gomod", "gosum", "kdl", "pkl", "markdown", "markdown_inline", "python", "vhs", "html", "latex", "yaml" },
 
@@ -66,62 +81,28 @@ require("nvim-treesitter.configs").setup({
 		},
 })
 
-require("mason").setup()
-
+-- Theming
 vim.cmd.colorscheme "catppuccin-mocha"
-
-map('i', '<A-o>', "<C-x><C-o>", opts)
-
 vim.g.airline_theme = "catppuccin"
+vim.api.nvim_set_hl(0, "Normal",      { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalNC",    { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+vim.api.nvim_set_hl(0, "LineNr",      { bg = "#1e2030" })
+vim.api.nvim_set_hl(0, "SignColumn",  { bg = "#1e2030" })
 
 require 'colorizer'.setup({
 		'*';
 }, { mode = "background" })
 
+-- Plugin Setup
+require("mason").setup()
 require("mini.icons").setup()
 require("mini.pick").setup()
 require("mini.tabline").setup()
 require("oil").setup()
-
 require("render-markdown").setup()
-
-map('n', 'tT', ':Oil<CR>')
-map('n', 'fF', ':Pick files<CR>')
-map('n', 'dD', ':Dashboard<CR>')
-map('n', 'pP', ':RenderMarkdown toggle<CR>')
-map('n', 'hH', ':tabNext<CR>')
-map('n', 'hE', ":tabedit ")
-map('n', 'gO', ":Obsidian")
-
--- Translucent background go brrr
-vim.api.nvim_set_hl(0, "Normal",      { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalNC",    { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-
--- Make the gutter opaque
-vim.api.nvim_set_hl(0, "LineNr",      { bg = "#1e2030" })
-vim.api.nvim_set_hl(0, "SignColumn",  { bg = "#1e2030" })
-
--- Set up splits
-map('n', 'hK', vim.cmd.split)
-map('n', 'hL', vim.cmd.vsplit)
-
--- Change focus
-map('n', '<C-Up>', '<C-w>k')
-map('n', '<C-Down>', '<C-w>j')
-map('n', '<C-Left>', '<C-w>h')
-map('n', '<C-Right>', '<C-w>l')
-
--- Set up flash.nvim
-map('n', '<C-s>', function() require('flash').jump() end)
-
--- Set up indent-blankline.nvim
 require('ibl').setup()
-
--- Set up store.nvim
 require('store').setup()
-
--- Set up eagle.nvim
 require('eagle').setup()
 
 -- Hijinks in LSP land
@@ -141,7 +122,6 @@ vim.lsp.config("lua_ls", {
 				'.git',
 		},
 })
-
 vim.lsp.enable("lua_ls")
 
 -- > Ruby LSP
@@ -155,7 +135,6 @@ vim.lsp.config("ruby-lsp", {
 				return client.config.cmd_cwd == config.cmd_cwd
 		end,
 })
-
 vim.lsp.enable("ruby-lsp")
 
 -- > Crystal LSP
@@ -164,7 +143,6 @@ vim.lsp.config("crystalline", {
 		filetypes = { 'crystal' },
 		root_markers = { 'shard.yml', '.git' }
 })
-
 vim.lsp.enable("crystalline")
 
 -- > Hyprlang LSP
@@ -173,7 +151,6 @@ vim.lsp.config('hyprls', {
 		filetypes = { 'hyprlang' },
 		root_markers = { '.git' }
 })
-
 vim.lsp.enable("hyprls")
 
 -- > Fish LSP
@@ -182,5 +159,4 @@ vim.lsp.config("fish-lsp", {
 		filetypes = { 'fish' },
 		root_markers = { 'config.fish', '.git' },
 })
-
 vim.lsp.enable("fish-lsp")
