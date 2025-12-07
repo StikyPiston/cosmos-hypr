@@ -166,3 +166,10 @@ vim.lsp.config("crystalline", {
 })
 
 vim.lsp.enable("crystalline")
+
+-- > Hyprlang LSP
+vim.lsp.config('hyprls', {
+		cmd = { 'hyprls', '--stdio' },
+		filetypes = { 'hyprlang' },
+		root_markers = { '.git' }
+})
