@@ -177,3 +177,9 @@ vim.lsp.enable("coffeesense")
 
 -- > Rust LSP
 vim.lsp.enable("rust_analyzer")
+
+-- > Zig LSP
+vim.lsp.enable("zls")
+
+-- > MCFunction LSP
+vim.lsp.enable("spyglassmc_language_server")
