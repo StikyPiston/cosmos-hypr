@@ -176,3 +176,4 @@ vim.lsp.config("coffeesense", {
 vim.lsp.enable("coffeesense")
 
 -- > Rust LSP
+vim.lsp.enable("rust_analyzer")
