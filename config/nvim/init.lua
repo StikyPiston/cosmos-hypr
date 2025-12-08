@@ -31,6 +31,7 @@ map('n', '<C-Down>',  '<C-w>j')
 map('n', '<C-Left>',  '<C-w>h')
 map('n', '<C-Right>', '<C-w>l')
 map('n', '<C-s>',     function() require('flash').jump() end)
+map('n', '<C-i>',     ':FzfNerdfont<CR>')
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -58,6 +59,8 @@ vim.pack.add({
 		"https://github.com/MunifTanjim/nui.nvim",
 		"https://github.com/alex-popov-tech/store.nvim",
 		"https://github.com/soulis-1256/eagle.nvim",
+		"https://github.com/stephansama/fzf-nerdfont.nvim",
+		"https://github.com/ibhagwan/fzf-lua"
 })
 
 -- Treesitter Setup

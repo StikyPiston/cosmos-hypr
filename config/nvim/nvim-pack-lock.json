@@ -20,6 +20,14 @@
       "rev": "fcea7ff",
       "src": "https://github.com/folke/flash.nvim"
     },
+    "fzf-lua": {
+      "rev": "43bda24f711e0c13428f16056002aebc20b38e04",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "fzf-nerdfont.nvim": {
+      "rev": "642164f28a74e45e0607df5006f9086c0914e117",
+      "src": "https://github.com/stephansama/fzf-nerdfont.nvim"
+    },
     "indent-blankline.nvim": {
       "rev": "005b56001b2cb30bfa61b7986bc50657816ba4ba",
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
