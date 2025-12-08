@@ -57,7 +57,7 @@ vim.pack.add({
 		"https://github.com/lukas-reineke/indent-blankline.nvim",
 		"https://github.com/MunifTanjim/nui.nvim",
 		"https://github.com/alex-popov-tech/store.nvim",
-		"https://github.com/soulis-1256/eagle.nvim"
+		"https://github.com/soulis-1256/eagle.nvim",
 })
 
 -- Treesitter Setup

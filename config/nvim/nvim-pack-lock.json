@@ -24,6 +24,10 @@
       "rev": "005b56001b2cb30bfa61b7986bc50657816ba4ba",
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
     },
+    "lsp_signature.nvim": {
+      "rev": "7d3bb0a641f516f1c7fd2e47852580dadbd7a430",
+      "src": "https://github.com/ray-x/lsp_signature.nvim"
+    },
     "mason.nvim": {
       "rev": "ad7146a",
       "src": "https://github.com/mason-org/mason.nvim"
