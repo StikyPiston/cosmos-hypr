@@ -166,3 +166,13 @@ vim.lsp.config("fish-lsp", {
 		root_markers = { 'config.fish', '.git' },
 })
 vim.lsp.enable("fish-lsp")
+
+-- > CoffeeScript LSP
+vim.lsp.config("coffeesense", {
+		cmd          = { 'coffeesense-language-server', '--stdio' },
+		filetypes    = { 'coffee' },
+		root_markers = { 'package.json' },
+})
+vim.lsp.enable("coffeesense")
+
+-- > Rust LSP
