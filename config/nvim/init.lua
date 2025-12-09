@@ -33,6 +33,7 @@ map('n', '<C-Right>', '<C-w>l')
 map('n', '<C-s>',     function() require('flash').jump() end)
 map('n', '<C-i>',     ':FzfNerdfont<CR>')
 map('n', '<C-b>',     function() vim.pack.update() end)
+map('n', '<A-g>',     function() require("gelpen").open() end)
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -62,7 +63,6 @@ vim.pack.add({
 		"https://github.com/soulis-1256/eagle.nvim",
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
-		"https://github.com/StikyPiston/gelpen.nvim"
 })
 
 -- Treesitter Setup
