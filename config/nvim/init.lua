@@ -44,8 +44,6 @@ vim.pack.add({
 		"https://github.com/mason-org/mason.nvim",
 		"https://github.com/nvim-tree/nvim-web-devicons",
 		"https://github.com/hrsh7th/nvim-cmp",
-		"https://github.com/vim-airline/vim-airline",
-		"https://github.com/vim-airline/vim-airline-themes",
 		"https://github.com/norcalli/nvim-colorizer.lua",
 		"https://github.com/nvim-lua/plenary.nvim",
 		"https://github.com/stevearc/oil.nvim",
@@ -63,7 +61,8 @@ vim.pack.add({
 		"https://github.com/apple/pkl-neovim",
 		"https://github.com/charmbracelet/tree-sitter-vhs",
 		"https://github.com/echaya/neowiki.nvim",
-		"https://github.com/nvim-lualine/lualine.nvim"
+		"https://github.com/nvim-lualine/lualine.nvim",
+		"https://github.com/dstein64/vim-startuptime"
 })
 
 -- Treesitter Setup
@@ -89,7 +88,6 @@ require("nvim-treesitter.configs").setup({
 
 -- Theming
 vim.cmd.colorscheme "catppuccin-mocha"
-vim.g.airline_theme = "catppuccin"
 vim.api.nvim_set_hl(0, "Normal",      { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalNC",    { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })

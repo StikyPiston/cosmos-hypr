@@ -100,6 +100,10 @@
       "rev": "77aab8c6cf7179ddb8a05741da7e358a86b2c3ab",
       "src": "https://github.com/vim-airline/vim-airline-themes"
     },
+    "vim-startuptime": {
+      "rev": "b6f0d93f6b8cf6eee0b4c94450198ba2d6a05ff6",
+      "src": "https://github.com/dstein64/vim-startuptime"
+    },
     "volt": {
       "rev": "620de1321f275ec9d80028c68d1b88b409c0c8b1",
       "src": "https://github.com/nvzone/volt"
