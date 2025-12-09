@@ -34,7 +34,7 @@ map('n', '<C-Right>',  '<C-w>l')
 map('n', '<C-s>',      function() require('flash').jump() end)
 map('n', '<C-i>',      ':FzfNerdfont<CR>')
 map('n', '<C-b>',      function() vim.pack.update() end)
-map('n', '<leader>oW', function() require("neowiki").open_wiki_floating() end)
+map('n', '<leader>oW', ':Gelpen<CR>')
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -60,8 +60,8 @@ vim.pack.add({
 		"https://github.com/soulis-1256/eagle.nvim",
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
-		"https://github.com/echaya/neowiki.nvim",
 		"https://github.com/nvzone/typr",
+		"https://github.com/StikyPiston/gelpen.nvim"
 })
 
 -- Treesitter Setup
@@ -110,10 +110,8 @@ require('eagle').setup({
 		keyboard_mode = true,
 		mouse_mode    = true
 })
-require("neowiki").setup({
-		wiki_dirs = {
-				{ name = "School", path = "~/Notebooks/School" },
-		},
+require("gelpen").setup({
+		wiki_path = "/home/distrorockhopper/Notebooks/School"
 })
 
 -- Hijinks in LSP land
