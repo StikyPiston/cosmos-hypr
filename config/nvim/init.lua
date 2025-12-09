@@ -132,6 +132,7 @@ require("lualine").setup({
 				lualine_z = {}
 		}
 })
+require("triforce").setup()
 
 -- Hijinks in LSP land
 
