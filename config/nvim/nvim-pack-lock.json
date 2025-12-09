@@ -29,7 +29,7 @@
       "src": "https://github.com/stephansama/fzf-nerdfont.nvim"
     },
     "gelpen.nvim": {
-      "rev": "8d3db9b565799047531c91832439ede90055a588",
+      "rev": "a8370037eb8de5085aa666196def66958a62f985",
       "src": "https://github.com/StikyPiston/gelpen.nvim"
     },
     "indent-blankline.nvim": {
@@ -103,10 +103,6 @@
     "render-markdown.nvim": {
       "rev": "b2b135347e299ffbf7f4123fb7811899b0c9f4b8",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
-    },
-    "scribblenote.nvim": {
-      "rev": "70a20a8edf9a4b4afce4baf326799103b6908ce5",
-      "src": "https://github.com/StikyPiston/scribblenote.nvim"
     },
     "store.nvim": {
       "rev": "df430716b095719f7221f2fb50be696879ca7c34",

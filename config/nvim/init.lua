@@ -32,7 +32,7 @@ map('n', '<C-Left>',  '<C-w>h')
 map('n', '<C-Right>', '<C-w>l')
 map('n', '<C-s>',     function() require('flash').jump() end)
 map('n', '<C-i>',     ':FzfNerdfont<CR>')
-map('n', '<C-4>',     vim.pack.update())
+map('n', '<C-b>',     function() vim.pack.update() end)
 
 -- Packing it up in here :P
 vim.pack.add({
