@@ -21,6 +21,8 @@ alias lg='lazygit'
 
 alias man='tldr'
 
+alias nvimupdate='nv -c "lua vim.pack.update()" -c "w" -c "exit" -c "exit"'
+
 PS1='\w > '
 
 export PATH=$HOME/Applications:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.local/share/gem/ruby/3.4.0/bin:$HOME/.local/bin:$PATH
