@@ -42,7 +42,6 @@ vim.pack.add({
 		"https://github.com/nvim-treesitter/nvim-treesitter",
 		"https://github.com/neovim/nvim-lspconfig",
 		"https://github.com/mason-org/mason.nvim",
-		"https://github.com/L3MON4D3/LuaSnip",
 		"https://github.com/nvim-tree/nvim-web-devicons",
 		"https://github.com/hrsh7th/nvim-cmp",
 		"https://github.com/vim-airline/vim-airline",
