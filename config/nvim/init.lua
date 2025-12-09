@@ -127,8 +127,8 @@ require("lualine").setup({
 				lualine_a = { "mode" },
 				lualine_b = { "filename" },
 				lualine_c = {},
-				lualine_x = { "filetype", "location" },
-				lualine_y = { "diff", "diagnostics" },
+				lualine_x = { "filetype", "location", "diff" },
+				lualine_y = { "lsp_status", "diagnostics" },
 				lualine_z = {}
 		}
 })
