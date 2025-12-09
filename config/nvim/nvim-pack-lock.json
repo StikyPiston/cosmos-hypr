@@ -120,6 +120,10 @@
       "rev": "49ae2d6232c4ca96e90aa665a303fd1328f02941",
       "src": "https://github.com/gisketch/triforce.nvim"
     },
+    "typr": {
+      "rev": "584e4ef34dea25a4035627794322f315b22d1253",
+      "src": "https://github.com/nvzone/typr"
+    },
     "vim-airline": {
       "rev": "499ae85357db811108ba1c52aa161fb09c462572",
       "src": "https://github.com/vim-airline/vim-airline"

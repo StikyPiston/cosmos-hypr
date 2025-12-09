@@ -61,6 +61,7 @@ vim.pack.add({
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
 		"https://github.com/echaya/neowiki.nvim",
+		"https://github.com/nvzone/typr",
 })
 
 -- Treesitter Setup
