@@ -57,7 +57,6 @@ vim.pack.add({
 		"https://github.com/nvzone/volt",
 		"https://github.com/lukas-reineke/indent-blankline.nvim",
 		"https://github.com/MunifTanjim/nui.nvim",
-		"https://github.com/alex-popov-tech/store.nvim",
 		"https://github.com/soulis-1256/eagle.nvim",
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
@@ -106,7 +105,6 @@ require("mini.tabline").setup()
 require("oil").setup()
 require("render-markdown").setup()
 require('ibl').setup()
-require('store').setup()
 require('eagle').setup({
 		keyboard_mode = true,
 		mouse_mode    = true
