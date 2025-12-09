@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#!/usr/bin/env bash
-
 WALL_DIR="/home/distrorockhopper/Pictures/wallpapers/space"
 TARGET="/home/distrorockhopper/Pictures/wallpapers/currentpaper"
 
