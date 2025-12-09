@@ -60,7 +60,8 @@ vim.pack.add({
 		"https://github.com/alex-popov-tech/store.nvim",
 		"https://github.com/soulis-1256/eagle.nvim",
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
-		"https://github.com/ibhagwan/fzf-lua"
+		"https://github.com/ibhagwan/fzf-lua",
+		"https://github.com/StikyPiston/scribblenote.nvim"
 })
 
 -- Treesitter Setup
