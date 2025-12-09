@@ -44,6 +44,10 @@
       "rev": "6f11e41a137590e4a5f13624a2a9a845686e719f",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
+    "neowiki.nvim": {
+      "rev": "93e42304d79c67b6bf3539cd357bf1f9e79bf3b8",
+      "src": "https://github.com/echaya/neowiki.nvim"
+    },
     "nord.nvim": {
       "rev": "80c1e53",
       "src": "https://github.com/shaunsingh/nord.nvim"
@@ -113,7 +117,7 @@
       "src": "https://github.com/charmbracelet/tree-sitter-vhs"
     },
     "triforce.nvim": {
-      "rev": "ff1b57c3342cd4e2d9c452558978f0aed7b6b476",
+      "rev": "49ae2d6232c4ca96e90aa665a303fd1328f02941",
       "src": "https://github.com/gisketch/triforce.nvim"
     },
     "vim-airline": {

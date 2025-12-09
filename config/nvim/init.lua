@@ -13,27 +13,28 @@ vim.o.winborder      = "rounded"
 vim.o.clipboard      = "unnamedplus"
 vim.o.mousemoveevent = true
 vim.o.number         = true
+vim.g.mapleader      = " "
 
 -- Bindings
-map('n', ';',         'i', opts)
-map('i', '<A-o>',     '<C-x><C-o>', opts)
-map('n', 'tT',        ':Oil<CR>')
-map('n', 'fF',        ':Pick files<CR>')
-map('n', 'dD',        ':Dashboard<CR>')
-map('n', 'pP',        ':RenderMarkdown toggle<CR>')
-map('n', 'hH',        ':tabNext<CR>')
-map('n', 'hE',        ':tabedit ')
-map('n', 'gO',        ':Obsidian')
-map('n', 'hK',        vim.cmd.split)
-map('n', 'hL',        vim.cmd.vsplit)
-map('n', '<C-Up>',    '<C-w>k')
-map('n', '<C-Down>',  '<C-w>j')
-map('n', '<C-Left>',  '<C-w>h')
-map('n', '<C-Right>', '<C-w>l')
-map('n', '<C-s>',     function() require('flash').jump() end)
-map('n', '<C-i>',     ':FzfNerdfont<CR>')
-map('n', '<C-b>',     function() vim.pack.update() end)
-map('n', '<A-g>',     function() require("gelpen").open() end)
+map('n', ';',          'i', opts)
+map('i', '<A-o>',      '<C-x><C-o>', opts)
+map('n', 'tT',         ':Oil<CR>')
+map('n', 'fF',         ':Pick files<CR>')
+map('n', 'dD',         ':Dashboard<CR>')
+map('n', 'pP',         ':RenderMarkdown toggle<CR>')
+map('n', 'hH',         ':tabNext<CR>')
+map('n', 'hE',         ':tabedit ')
+map('n', 'gO',         ':Obsidian')
+map('n', 'hK',         vim.cmd.split)
+map('n', 'hL',         vim.cmd.vsplit)
+map('n', '<C-Up>',     '<C-w>k')
+map('n', '<C-Down>',   '<C-w>j')
+map('n', '<C-Left>',   '<C-w>h')
+map('n', '<C-Right>',  '<C-w>l')
+map('n', '<C-s>',      function() require('flash').jump() end)
+map('n', '<C-i>',      ':FzfNerdfont<CR>')
+map('n', '<C-b>',      function() vim.pack.update() end)
+map('n', '<leader>oW', function() require("neowiki").open_wiki_floating() end)
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -63,6 +64,7 @@ vim.pack.add({
 		"https://github.com/soulis-1256/eagle.nvim",
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
+		"https://github.com/echaya/neowiki.nvim",
 })
 
 -- Treesitter Setup
@@ -111,6 +113,11 @@ require('store').setup()
 require('eagle').setup({
 		keyboard_mode = true,
 		mouse_mode    = true
+})
+require("neowiki").setup({
+		wiki_dirs = {
+				{ name = "School", path = "~/Notebooks/School" },
+		},
 })
 
 -- Hijinks in LSP land
