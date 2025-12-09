@@ -16,13 +16,13 @@
       "rev": "642164f28a74e45e0607df5006f9086c0914e117",
       "src": "https://github.com/stephansama/fzf-nerdfont.nvim"
     },
-    "gelpen.nvim": {
-      "rev": "bfd530212e6c5de4564c6902470bbabee35d7548",
-      "src": "https://github.com/StikyPiston/gelpen.nvim"
-    },
     "indent-blankline.nvim": {
       "rev": "005b56001b2cb30bfa61b7986bc50657816ba4ba",
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason.nvim": {
       "rev": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800",
@@ -31,6 +31,10 @@
     "mini.nvim": {
       "rev": "6f11e41a137590e4a5f13624a2a9a845686e719f",
       "src": "https://github.com/nvim-mini/mini.nvim"
+    },
+    "neowiki.nvim": {
+      "rev": "93e42304d79c67b6bf3539cd357bf1f9e79bf3b8",
+      "src": "https://github.com/echaya/neowiki.nvim"
     },
     "nui.nvim": {
       "rev": "de740991c12411b663994b2860f1a4fd0937c130",

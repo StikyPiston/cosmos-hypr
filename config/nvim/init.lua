@@ -34,7 +34,7 @@ map('n', '<C-Right>',  '<C-w>l')
 map('n', '<C-s>',      function() require('flash').jump() end)
 map('n', '<C-i>',      ':FzfNerdfont<CR>')
 map('n', '<C-b>',      function() vim.pack.update() end)
-map('n', '<leader>oW', ':Gelpen<CR>')
+map('n', '<leader>oW', function() require("neowiki").open_wiki() end)
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -60,9 +60,10 @@ vim.pack.add({
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
 		"https://github.com/nvzone/typr",
-		"https://github.com/StikyPiston/gelpen.nvim",
 		"https://github.com/apple/pkl-neovim",
-		"https://github.com/charmbracelet/tree-sitter-vhs"
+		"https://github.com/charmbracelet/tree-sitter-vhs",
+		"https://github.com/echaya/neowiki.nvim",
+		"https://github.com/nvim-lualine/lualine.nvim"
 })
 
 -- Treesitter Setup
@@ -111,8 +112,25 @@ require('eagle').setup({
 		keyboard_mode = true,
 		mouse_mode    = true
 })
-require("gelpen").setup({
-		wiki_path = "/home/distrorockhopper/Notebooks/School"
+require("neowiki").setup({
+		wiki_dirs = {
+				{ name = "School", path = "~/Notebooks/School" }
+		}
+})
+require("lualine").setup({
+		options = {
+				section_separators   = { right = "", left = "" },
+				compenent_separators = { right = "", left = "" }
+		},
+
+		sections = {
+				lualine_a = { "mode" },
+				lualine_b = { "filename" },
+				lualine_c = {},
+				lualine_x = { "filetype", "location" },
+				lualine_y = { "diff", "diagnostics" },
+				lualine_z = {}
+		}
 })
 
 -- Hijinks in LSP land
