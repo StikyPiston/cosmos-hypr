@@ -44,7 +44,6 @@ vim.pack.add({
 		"https://github.com/mason-org/mason.nvim",
 		"https://github.com/nvim-tree/nvim-web-devicons",
 		"https://github.com/hrsh7th/nvim-cmp",
-		"https://github.com/norcalli/nvim-colorizer.lua",
 		"https://github.com/nvim-lua/plenary.nvim",
 		"https://github.com/stevearc/oil.nvim",
 		"https://github.com/nvim-mini/mini.nvim",
@@ -62,7 +61,8 @@ vim.pack.add({
 		"https://github.com/charmbracelet/tree-sitter-vhs",
 		"https://github.com/echaya/neowiki.nvim",
 		"https://github.com/nvim-lualine/lualine.nvim",
-		"https://github.com/dstein64/vim-startuptime"
+		"https://github.com/dstein64/vim-startuptime",
+		"https://github.com/brenoprata10/nvim-highlight-colors"
 })
 
 -- Treesitter Setup
@@ -93,10 +93,6 @@ vim.api.nvim_set_hl(0, "NormalNC",    { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.api.nvim_set_hl(0, "LineNr",      { bg = "#1e2030" })
 vim.api.nvim_set_hl(0, "SignColumn",  { bg = "#1e2030" })
-
-require 'colorizer'.setup({
-		'*';
-}, { mode = "background" })
 
 -- Plugin Setup
 require("mason").setup()
@@ -131,6 +127,7 @@ require("lualine").setup({
 		}
 })
 require("triforce").setup()
+require("nvim-highlight-colors").setup()
 
 -- Hijinks in LSP land
 
