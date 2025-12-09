@@ -67,7 +67,7 @@ vim.pack.add({
 
 -- Treesitter Setup
 require("nvim-treesitter.configs").setup({
-		ensure_installed = { "c", "lua", "swift", "ruby", "hyprlang", "bash", "go", "gomod", "gosum", "kdl", "pkl", "markdown", "markdown_inline", "python", "vhs", "html", "latex", "yaml" },
+		ensure_installed = { "c", "lua", "swift", "ruby", "hyprlang", "bash", "go", "gomod", "gosum", "kdl", "pkl", "markdown", "markdown_inline", "python", "vhs", "html", "latex", "yaml", "typst" },
 
 		sync_install = false,
 
