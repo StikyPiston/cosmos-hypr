@@ -28,6 +28,10 @@
       "rev": "642164f28a74e45e0607df5006f9086c0914e117",
       "src": "https://github.com/stephansama/fzf-nerdfont.nvim"
     },
+    "gelpen.nvim": {
+      "rev": "8d3db9b565799047531c91832439ede90055a588",
+      "src": "https://github.com/StikyPiston/gelpen.nvim"
+    },
     "indent-blankline.nvim": {
       "rev": "005b56001b2cb30bfa61b7986bc50657816ba4ba",
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
