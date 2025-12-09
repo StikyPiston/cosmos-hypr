@@ -60,7 +60,9 @@ vim.pack.add({
 		"https://github.com/stephansama/fzf-nerdfont.nvim",
 		"https://github.com/ibhagwan/fzf-lua",
 		"https://github.com/nvzone/typr",
-		"https://github.com/StikyPiston/gelpen.nvim"
+		"https://github.com/StikyPiston/gelpen.nvim",
+		"https://github.com/apple/pkl-neovim",
+		"https://github.com/charmbracelet/tree-sitter-vhs"
 })
 
 -- Treesitter Setup
