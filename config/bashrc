@@ -5,6 +5,9 @@ alias l='ls'
 alias la='ls -a'
 alias ll='ls -a1'
 
+alias mv='mv -v'
+alias cp='cp -v'
+
 alias nvi=nvim
 alias nv=nvim
 
