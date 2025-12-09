@@ -21,7 +21,7 @@ alias lg='lazygit'
 
 alias man='tldr'
 
-alias nvimupdate='nv -c "lua vim.pack.update()" -c "w" -c "exit" -c "exit"'
+alias nvimupdate='nv -c "lua vim.pack.update()" -c "w" -c "qall"'
 
 PS1='\w > '
 
