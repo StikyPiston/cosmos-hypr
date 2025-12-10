@@ -35,6 +35,7 @@ map('n', '<C-s>',      function() require('flash').jump() end)
 map('n', '<C-i>',      ':FzfNerdfont<CR>')
 map('n', '<C-b>',      function() vim.pack.update() end)
 map('n', '<leader>oW', function() require("neowiki").open_wiki() end)
+map('n', '<leader>tP', ':Triforce profile<CR>')
 
 -- Packing it up in here :P
 vim.pack.add({
