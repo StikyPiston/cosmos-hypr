@@ -36,6 +36,7 @@ map('n', '<C-i>',      ':FzfNerdfont<CR>')
 map('n', '<C-b>',      function() vim.pack.update() end)
 map('n', '<leader>oW', function() require("neowiki").open_wiki() end)
 map('n', '<leader>tP', ':Triforce profile<CR>')
+map('n', '<leader>lG', ':LazyGit<CR>')
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -63,7 +64,8 @@ vim.pack.add({
 		"https://github.com/echaya/neowiki.nvim",
 		"https://github.com/nvim-lualine/lualine.nvim",
 		"https://github.com/dstein64/vim-startuptime",
-		"https://github.com/brenoprata10/nvim-highlight-colors"
+		"https://github.com/brenoprata10/nvim-highlight-colors",
+		"https://github.com/kdheepak/lazygit.nvim"
 })
 
 -- Treesitter Setup
