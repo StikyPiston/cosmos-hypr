@@ -34,9 +34,12 @@ map('n', '<C-Right>',  '<C-w>l')
 map('n', '<C-s>',      function() require('flash').jump() end)
 map('n', '<C-i>',      ':FzfNerdfont<CR>')
 map('n', '<C-b>',      function() vim.pack.update() end)
-map('n', '<leader>oW', function() require("neowiki").open_wiki() end)
-map('n', '<leader>tP', ':Triforce profile<CR>')
-map('n', '<leader>lG', ':LazyGit<CR>')
+map('n', '<leader>ow', function() require("neowiki").open_wiki() end)
+map('n', '<leader>tp', ':Triforce profile<CR>')
+map('n', '<leader>lg', ':LazyGit<CR>')
+map('n', '<leader>w',  ':w<CR>')
+map('n', '<leader>q',  ':q<CR>')
+map('n', '<leader>so', ':so<CR>')
 
 -- Packing it up in here :P
 vim.pack.add({
