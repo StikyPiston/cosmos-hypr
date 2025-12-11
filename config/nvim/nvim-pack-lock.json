@@ -1,7 +1,7 @@
 {
   "plugins": {
     "coinflip.nvim": {
-      "rev": "c10c45b63cd2d612282f34ae4ac932402ac63d57",
+      "rev": "c55620e925dd1dfd96cb7a3a18d220147c3c28b1",
       "src": "https://github.com/StikyPiston/coinflip.nvim"
     },
     "eagle.nvim": {
