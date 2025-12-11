@@ -40,6 +40,7 @@ map('n', '<leader>lg', ':LazyGit<CR>')
 map('n', '<leader>w',  ':w<CR>')
 map('n', '<leader>q',  ':q<CR>')
 map('n', '<leader>so', ':so<CR>')
+map('n', '<leader>lf', vim.lsp.buf.format)
 
 -- Packing it up in here :P
 vim.pack.add({
