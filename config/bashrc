@@ -8,6 +8,7 @@ alias ll='ls -a1'
 alias mv='mv -v'
 alias cp='cp -v'
 alias rm='rm -v'
+alias tree='tree -LC 1'
 
 alias nvi=nvim
 alias nv=nvim
