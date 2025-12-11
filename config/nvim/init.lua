@@ -213,3 +213,6 @@ vim.lsp.enable("spyglassmc_language_server")
 
 -- > Typst LSP
 vim.lsp.enable("tinymist")
+
+-- > Python LSP
+vim.lsp.enable("pyright")
