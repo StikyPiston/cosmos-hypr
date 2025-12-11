@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "coinflip.nvim": {
+      "rev": "cc387d1c6055ca2a33eae351910a112baecb1104",
+      "src": "https://github.com/StikyPiston/coinflip.nvim"
+    },
     "eagle.nvim": {
       "rev": "41cb488fc097aadc22e8b5e0b9292ac7e4ee9918",
       "src": "https://github.com/soulis-1256/eagle.nvim"
@@ -93,7 +97,7 @@
       "src": "https://github.com/charmbracelet/tree-sitter-vhs"
     },
     "triforce.nvim": {
-      "rev": "6b8ca4ea9fd28b3e8472de266d6dd95166bcda1d",
+      "rev": "a6faa9c5bf13ea8d3f3cae47f74c219c194ee71b",
       "src": "https://github.com/gisketch/triforce.nvim"
     },
     "typr": {

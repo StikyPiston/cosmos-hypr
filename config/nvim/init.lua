@@ -41,6 +41,7 @@ map('n', '<leader>w',  ':w<CR>')
 map('n', '<leader>q',  ':q<CR>')
 map('n', '<leader>so', ':so<CR>')
 map('n', '<leader>lf', vim.lsp.buf.format)
+map('n', '<leader>cf', function() require("coinflip").flip() end)
 
 -- Packing it up in here :P
 vim.pack.add({
@@ -69,7 +70,8 @@ vim.pack.add({
 		"https://github.com/nvim-lualine/lualine.nvim",
 		"https://github.com/dstein64/vim-startuptime",
 		"https://github.com/brenoprata10/nvim-highlight-colors",
-		"https://github.com/kdheepak/lazygit.nvim"
+		"https://github.com/kdheepak/lazygit.nvim",
+		"https://github.com/StikyPiston/coinflip.nvim"
 })
 
 -- Treesitter Setup
