@@ -1,7 +1,7 @@
 {
   "plugins": {
     "coinflip.nvim": {
-      "rev": "ac30d1fe07392cb1d641a83f64ebad6fb4441e5a",
+      "rev": "c10c45b63cd2d612282f34ae4ac932402ac63d57",
       "src": "https://github.com/StikyPiston/coinflip.nvim"
     },
     "eagle.nvim": {
@@ -37,7 +37,7 @@
       "src": "https://github.com/mason-org/mason.nvim"
     },
     "mini.nvim": {
-      "rev": "6f11e41a137590e4a5f13624a2a9a845686e719f",
+      "rev": "c889667a9d73b106bd303a043eb37a91da4a41a2",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
     "neowiki.nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "b2b135347e299ffbf7f4123fb7811899b0c9f4b8",
+      "rev": "26097a4eb95b391d0308c1b77cce89b28bbc9916",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "tree-sitter-vhs": {
