@@ -9,7 +9,7 @@
       "src": "https://github.com/folke/flash.nvim"
     },
     "fzf-lua": {
-      "rev": "de0fd4a21ee29cf6532d0c3bcae08a0b25d99b6a",
+      "rev": "c7ff27deae5b8966b0764bde962d0855e6e2db93",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "fzf-nerdfont.nvim": {
@@ -93,7 +93,7 @@
       "src": "https://github.com/charmbracelet/tree-sitter-vhs"
     },
     "triforce.nvim": {
-      "rev": "5f0553e51097efa77fc23144b5119b4d8b9f5561",
+      "rev": "03a2e254b6d224b9751051d0dc08c9ab1d6893d0",
       "src": "https://github.com/gisketch/triforce.nvim"
     },
     "typr": {
