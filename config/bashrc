@@ -62,3 +62,7 @@ function yz() {
 
 alias yazi=yz
 alias y=yz
+
+eval "$(zoxide init bash)"
+
+alias cd=z
