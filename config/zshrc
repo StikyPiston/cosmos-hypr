@@ -10,6 +10,7 @@ alias cp='cp -v'
 alias rm='rm -v'
 alias tree='tree -LC 1'
 alias ncdu='ncdu --color dark --show-percent '
+alias clear='clear -x'
 
 alias nvi=nvim
 alias nv=nvim
