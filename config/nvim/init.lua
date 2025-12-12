@@ -47,54 +47,54 @@ map('n', '<leader>cf', function() require("coinflip").flip() end)
 
 -- Packing it up in here :P
 vim.pack.add({
-		"https://github.com/catppuccin/nvim",
-		"https://github.com/nvim-treesitter/nvim-treesitter",
-		"https://github.com/neovim/nvim-lspconfig",
-		"https://github.com/mason-org/mason.nvim",
-		"https://github.com/nvim-tree/nvim-web-devicons",
-		"https://github.com/hrsh7th/nvim-cmp",
-		"https://github.com/nvim-lua/plenary.nvim",
-		"https://github.com/stevearc/oil.nvim",
-		"https://github.com/nvim-mini/mini.nvim",
-		"https://github.com/MeanderingProgrammer/render-markdown.nvim",
-		"https://github.com/folke/flash.nvim",
-		"https://github.com/gisketch/triforce.nvim",
-		"https://github.com/nvzone/volt",
-		"https://github.com/lukas-reineke/indent-blankline.nvim",
-		"https://github.com/MunifTanjim/nui.nvim",
-		"https://github.com/soulis-1256/eagle.nvim",
-		"https://github.com/stephansama/fzf-nerdfont.nvim",
-		"https://github.com/ibhagwan/fzf-lua",
-		"https://github.com/nvzone/typr",
-		"https://github.com/apple/pkl-neovim",
-		"https://github.com/charmbracelet/tree-sitter-vhs",
-		"https://github.com/echaya/neowiki.nvim",
-		"https://github.com/nvim-lualine/lualine.nvim",
-		"https://github.com/dstein64/vim-startuptime",
-		"https://github.com/brenoprata10/nvim-highlight-colors",
-		"https://github.com/kdheepak/lazygit.nvim",
-		"https://github.com/StikyPiston/coinflip.nvim"
+	"https://github.com/catppuccin/nvim",
+	"https://github.com/nvim-treesitter/nvim-treesitter",
+	"https://github.com/neovim/nvim-lspconfig",
+	"https://github.com/mason-org/mason.nvim",
+	"https://github.com/nvim-tree/nvim-web-devicons",
+	"https://github.com/hrsh7th/nvim-cmp",
+	"https://github.com/nvim-lua/plenary.nvim",
+	"https://github.com/stevearc/oil.nvim",
+	"https://github.com/nvim-mini/mini.nvim",
+	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
+	"https://github.com/folke/flash.nvim",
+	"https://github.com/gisketch/triforce.nvim",
+	"https://github.com/nvzone/volt",
+	"https://github.com/lukas-reineke/indent-blankline.nvim",
+	"https://github.com/MunifTanjim/nui.nvim",
+	"https://github.com/soulis-1256/eagle.nvim",
+	"https://github.com/stephansama/fzf-nerdfont.nvim",
+	"https://github.com/ibhagwan/fzf-lua",
+	"https://github.com/nvzone/typr",
+	"https://github.com/apple/pkl-neovim",
+	"https://github.com/charmbracelet/tree-sitter-vhs",
+	"https://github.com/echaya/neowiki.nvim",
+	"https://github.com/nvim-lualine/lualine.nvim",
+	"https://github.com/dstein64/vim-startuptime",
+	"https://github.com/brenoprata10/nvim-highlight-colors",
+	"https://github.com/kdheepak/lazygit.nvim",
+	"https://github.com/StikyPiston/coinflip.nvim"
 })
 
 -- Treesitter Setup
 require("nvim-treesitter.configs").setup({
-		ensure_installed = { "c", "lua", "swift", "ruby", "hyprlang", "bash", "go", "gomod", "gosum", "kdl", "pkl", "markdown", "markdown_inline", "python", "vhs", "html", "latex", "yaml", "typst" },
+	ensure_installed = { "c", "lua", "swift", "ruby", "hyprlang", "bash", "go", "gomod", "gosum", "kdl", "pkl", "markdown", "markdown_inline", "python", "vhs", "html", "latex", "yaml", "typst" },
 
-		sync_install = false,
+	sync_install = false,
 
-		auto_install = true,
+	auto_install = true,
 
-		highlight = {
-				enable = true,
-		},
+	highlight = {
+			enable = true,
+	},
 
-		incremental_selection = {
-				enable = true,
-		},
+	incremental_selection = {
+			enable = true,
+	},
 
-		indent = {
-				enable = true,
-		},
+	indent = {
+			enable = true,
+	},
 })
 
 -- Theming
@@ -117,28 +117,28 @@ require("oil").setup()
 require("render-markdown").setup()
 require('ibl').setup()
 require('eagle').setup({
-		keyboard_mode = true,
-		mouse_mode    = true
+	keyboard_mode = true,
+	mouse_mode    = true
 })
 require("neowiki").setup({
-		wiki_dirs = {
-				{ name = "School", path = "~/Notebooks/School" }
-		}
+	wiki_dirs = {
+		{ name = "School", path = "~/Notebooks/School" }
+	}
 })
 require("lualine").setup({
-		options = {
-				section_separators   = { right = "", left = "" },
-				compenent_separators = { right = "", left = "" }
-		},
+	options = {
+		section_separators   = { right = "", left = "" },
+		compenent_separators = { right = "", left = "" }
+	},
 
-		sections = {
-				lualine_a = { "mode" },
-				lualine_b = { "filename" },
-				lualine_c = {},
-				lualine_x = { "filetype", "location", "diff" },
-				lualine_y = { "lsp_status", "diagnostics" },
-				lualine_z = {}
-		}
+	sections = {
+		lualine_a = { "mode" },
+		lualine_b = { "filename" },
+		lualine_c = {},
+		lualine_x = { "filetype", "location", "diff" },
+		lualine_y = { "lsp_status", "diagnostics" },
+		lualine_z = {}
+	}
 })
 require("triforce").setup()
 require("nvim-highlight-colors").setup()
@@ -147,63 +147,63 @@ require("nvim-highlight-colors").setup()
 
 -- > Lua language server
 vim.lsp.config("lua_ls", {
-		cmd = { '/usr/sbin/lua-language-server' },
-		filetypes = { 'lua' },
-		root_markers = {
-				'.luarc.json',
-				'.luarc.jsonc',
-				'.luacheckrc',
-				'.stylua.toml',
-				'stylua.toml',
-				'selene.toml',
-				'selene.yml',
-				'.git',
-		},
+	cmd = { '/usr/sbin/lua-language-server' },
+	filetypes = { 'lua' },
+	root_markers = {
+		'.luarc.json',
+		'.luarc.jsonc',
+		'.luacheckrc',
+		'.stylua.toml',
+		'stylua.toml',
+		'selene.toml',
+		'selene.yml',
+		'.git',
+	},
 })
 vim.lsp.enable("lua_ls")
 
 -- > Ruby LSP
 vim.lsp.config("ruby-lsp", {
-		cmd          = { "ruby-lsp" },
-		filetypes    = { 'ruby', 'eruby' },
-		root_markers = { 'Gemfile', '.git' },
-		init_options = { formatter = 'auto', },
-		reuse_client = function(client, config)
-				config.cmd_cwd               =  config.root_dir
-				return client.config.cmd_cwd == config.cmd_cwd
-		end,
+	cmd          = { "ruby-lsp" },
+	filetypes    = { 'ruby', 'eruby' },
+	root_markers = { 'Gemfile', '.git' },
+	init_options = { formatter = 'auto', },
+	reuse_client = function(client, config)
+		config.cmd_cwd               =  config.root_dir
+		return client.config.cmd_cwd == config.cmd_cwd
+	end,
 })
 vim.lsp.enable("ruby-lsp")
 
 -- > Crystal LSP
 vim.lsp.config("crystalline", {
-		cmd          = { 'crystalline' },
-		filetypes    = { 'crystal' },
-		root_markers = { 'shard.yml', '.git' }
+	cmd          = { 'crystalline' },
+	filetypes    = { 'crystal' },
+	root_markers = { 'shard.yml', '.git' }
 })
 vim.lsp.enable("crystalline")
 
 -- > Hyprlang LSP
 vim.lsp.config('hyprls', {
-		cmd          = { 'hyprls', '--stdio' },
-		filetypes    = { 'hyprlang' },
-		root_markers = { '.git' }
+	cmd          = { 'hyprls', '--stdio' },
+	filetypes    = { 'hyprlang' },
+	root_markers = { '.git' }
 })
 vim.lsp.enable("hyprls")
 
 -- > Fish LSP
 vim.lsp.config("fish-lsp", {
-		cmd          = { 'fish-lsp', 'start' },
-		filetypes    = { 'fish' },
-		root_markers = { 'config.fish', '.git' },
+	cmd          = { 'fish-lsp', 'start' },
+	filetypes    = { 'fish' },
+	root_markers = { 'config.fish', '.git' },
 })
 vim.lsp.enable("fish-lsp")
 
 -- > CoffeeScript LSP
 vim.lsp.config("coffeesense", {
-		cmd          = { 'coffeesense-language-server', '--stdio' },
-		filetypes    = { 'coffee' },
-		root_markers = { 'package.json' },
+	cmd          = { 'coffeesense-language-server', '--stdio' },
+	filetypes    = { 'coffee' },
+	root_markers = { 'package.json' },
 })
 vim.lsp.enable("coffeesense")
 
