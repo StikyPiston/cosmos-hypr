@@ -37,7 +37,7 @@
       "src": "https://github.com/mason-org/mason.nvim"
     },
     "mini.nvim": {
-      "rev": "c889667a9d73b106bd303a043eb37a91da4a41a2",
+      "rev": "9087880da9ed1e5b06a28b75b4424fd8218bd189",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
     "neowiki.nvim": {
