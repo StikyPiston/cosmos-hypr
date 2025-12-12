@@ -44,6 +44,7 @@ evoke list
 redcards amount
 printf "󰆈  %s\n" "$(shuf -n 1 ~/.scripts/motds.txt)"
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 export FZF_DEFAULT_OPTS=" \
 		--tmux \
