@@ -13,6 +13,7 @@ vim.o.winborder      = "rounded"
 vim.o.clipboard      = "unnamedplus"
 vim.o.mousemoveevent = true
 vim.o.number         = true
+vim.o.shiftwidth     = 4
 vim.g.mapleader      = " "
 
 -- Bindings
