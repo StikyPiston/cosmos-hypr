@@ -23,6 +23,7 @@
 		{ "source": "config/btop",          "target": "~/.config/btop" },
 		{ "source": "config/lazygit",       "target": "~/.config/lazygit" },
 		{ "source": "config/uxplayrc",      "target": "~/.uxplayrc" },
-		{ "source": "config/zshrc",         "target": "~/.zshrc" }
+		{ "source": "config/zshrc",         "target": "~/.zshrc" },
+		{ "source": "config/fsh",           "target": "~/.config/fsh" }
 	]
 }
