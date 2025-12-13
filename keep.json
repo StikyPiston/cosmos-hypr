@@ -26,6 +26,7 @@
 		{ "source": "config/zshrc",                "target": "~/.zshrc" },
 		{ "source": "config/fsh",                  "target": "~/.config/fsh" },
 		{ "source": "config/catppuccin.gitconfig", "target": "~/.config/catppuccin.gitconfig" },
-		{ "source": "config/MangoHud",             "target": "~/.config/MangoHud" }
+		{ "source": "config/MangoHud",             "target": "~/.config/MangoHud" },
+		{ "source": "config/wlogout",              "target": "~/.config/wlogout" }
 	]
 }
