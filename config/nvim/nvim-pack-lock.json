@@ -81,7 +81,7 @@
       "src": "https://github.com/stevearc/oil.nvim"
     },
     "pkl-neovim": {
-      "rev": "f17ecbbabf080e975fc4997a5440eecbe9f02308",
+      "rev": "08bcabc52cc2cf64b33e51b6bf94172164829941",
       "src": "https://github.com/apple/pkl-neovim"
     },
     "plenary.nvim": {
