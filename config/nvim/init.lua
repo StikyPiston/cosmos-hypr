@@ -145,7 +145,13 @@ require("lualine").setup({
 require("triforce").setup()
 require("nvim-highlight-colors").setup()
 require("2048").setup()
-require("playdate").setup()
+require("playdate").setup({
+	playdate_sdk_path = "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2",
+	build = {
+		source_dir = "src",
+		output_dir = "build.pdx"
+	}
+})
 
 -- Hijinks in LSP land
 
