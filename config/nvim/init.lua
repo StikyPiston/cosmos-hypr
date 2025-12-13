@@ -75,6 +75,7 @@ vim.pack.add({
 	"https://github.com/kdheepak/lazygit.nvim",
 	"https://github.com/StikyPiston/coinflip.nvim",
 	"https://github.com/NStefan002/2048.nvim",
+	"https://github.com/sqwxl/playdate.nvim"
 })
 
 -- Treesitter Setup
@@ -144,6 +145,7 @@ require("lualine").setup({
 require("triforce").setup()
 require("nvim-highlight-colors").setup()
 require("2048").setup()
+require("playdate").setup()
 
 -- Hijinks in LSP land
 
