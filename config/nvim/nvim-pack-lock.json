@@ -29,7 +29,7 @@
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
     },
     "keynote.nvim": {
-      "rev": "ce302cf9914443897636c426750982f57dc13840",
+      "rev": "9d73fdef074cd7753e93c969254df5e4bca88a40",
       "src": "https://github.com/StikyPiston/keynote.nvim"
     },
     "lazygit.nvim": {
