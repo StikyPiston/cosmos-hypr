@@ -143,6 +143,7 @@ require("lualine").setup({
 })
 require("triforce").setup()
 require("nvim-highlight-colors").setup()
+require("2048").setup()
 
 -- Hijinks in LSP land
 
