@@ -73,7 +73,8 @@ vim.pack.add({
 	"https://github.com/dstein64/vim-startuptime",
 	"https://github.com/brenoprata10/nvim-highlight-colors",
 	"https://github.com/kdheepak/lazygit.nvim",
-	"https://github.com/StikyPiston/coinflip.nvim"
+	"https://github.com/StikyPiston/coinflip.nvim",
+	"https://github.com/NStefan002/2048.nvim"
 })
 
 -- Treesitter Setup
