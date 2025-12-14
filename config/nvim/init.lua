@@ -75,7 +75,8 @@ vim.pack.add({
 	"https://github.com/kdheepak/lazygit.nvim",
 	"https://github.com/StikyPiston/coinflip.nvim",
 	"https://github.com/NStefan002/2048.nvim",
-	"https://github.com/sqwxl/playdate.nvim"
+	"https://github.com/sqwxl/playdate.nvim",
+	"https://github.com/3rd/image.nvim"
 })
 
 -- Treesitter Setup
@@ -152,6 +153,7 @@ require("playdate").setup({
 		output_dir = "build.pdx"
 	}
 })
+require("image").setup()
 
 -- Hijinks in LSP land
 
