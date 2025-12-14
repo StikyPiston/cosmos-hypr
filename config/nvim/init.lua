@@ -76,7 +76,8 @@ vim.pack.add({
 	"https://github.com/StikyPiston/coinflip.nvim",
 	"https://github.com/NStefan002/2048.nvim",
 	"https://github.com/sqwxl/playdate.nvim",
-	"https://github.com/3rd/image.nvim"
+	"https://github.com/3rd/image.nvim",
+	"https://github.com/Zeioth/markmap.nvim"
 })
 
 -- Treesitter Setup
@@ -154,6 +155,7 @@ require("playdate").setup({
 	}
 })
 require("image").setup()
+require("markmap").setup()
 
 -- Hijinks in LSP land
 
