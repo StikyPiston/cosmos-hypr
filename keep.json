@@ -27,6 +27,7 @@
 		{ "source": "config/fsh",                  "target": "~/.config/fsh" },
 		{ "source": "config/catppuccin.gitconfig", "target": "~/.config/catppuccin.gitconfig" },
 		{ "source": "config/MangoHud",             "target": "~/.config/MangoHud" },
-		{ "source": "config/wlogout",              "target": "~/.config/wlogout" }
+		{ "source": "config/wlogout",              "target": "~/.config/wlogout" },
+		{ "source": "config/amfora",               "target": "~/.config/amfora" }
 	]
 }
