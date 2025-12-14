@@ -24,6 +24,10 @@
       "rev": "642164f28a74e45e0607df5006f9086c0914e117",
       "src": "https://github.com/stephansama/fzf-nerdfont.nvim"
     },
+    "image.nvim": {
+      "rev": "446a8a5cc7a3eae3185ee0c697732c32a5547a0b",
+      "src": "https://github.com/3rd/image.nvim"
+    },
     "indent-blankline.nvim": {
       "rev": "005b56001b2cb30bfa61b7986bc50657816ba4ba",
       "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
