@@ -44,6 +44,8 @@ map('n', '<leader>q',  ':q<CR>')
 map('n', '<leader>so', ':so<CR>')
 map('n', '<leader>lf', vim.lsp.buf.format)
 map('n', '<leader>cf', function() require("coinflip").flip() end)
+map('n', '<leader>mo', ':MarkmapOpen')
+map('n', '<leader>ms', ':MarkmapSave')
 
 -- Packing it up in here :P
 vim.pack.add({
