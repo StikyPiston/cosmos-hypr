@@ -81,7 +81,8 @@ vim.pack.add({
 	"https://github.com/3rd/image.nvim",
 	"https://github.com/Zeioth/markmap.nvim",
 	"https://github.com/saghen/blink.cmp",
-	"https://github.com/folke/lazydev.nvim"
+	"https://github.com/folke/lazydev.nvim",
+	"https://github.com/piersolenski/skifree.nvim"
 })
 
 -- Treesitter Setup
