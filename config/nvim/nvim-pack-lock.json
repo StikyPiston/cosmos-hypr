@@ -40,6 +40,10 @@
       "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
+    "markmap.nvim": {
+      "rev": "c09ad672404d050e8665e3094f892b87cf17d8cb",
+      "src": "https://github.com/Zeioth/markmap.nvim"
+    },
     "mason.nvim": {
       "rev": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800",
       "src": "https://github.com/mason-org/mason.nvim"

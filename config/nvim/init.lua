@@ -155,7 +155,11 @@ require("playdate").setup({
 	}
 })
 require("image").setup()
-require("markmap").setup()
+require("markmap").setup({
+	html_output  = "/tmp/markmap.html",
+	hide_toolbar = false,
+	grace_period = 3600000
+})
 
 -- Hijinks in LSP land
 
