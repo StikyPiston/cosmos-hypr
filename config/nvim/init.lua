@@ -164,6 +164,7 @@ require("markmap").setup({
 	grace_period = 3600000
 })
 require("blink.cmp").setup()
+require("lazydev").setup()
 
 -- Hijinks in LSP land
 
