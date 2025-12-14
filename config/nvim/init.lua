@@ -79,7 +79,8 @@ vim.pack.add({
 	"https://github.com/NStefan002/2048.nvim",
 	"https://github.com/sqwxl/playdate.nvim",
 	"https://github.com/3rd/image.nvim",
-	"https://github.com/Zeioth/markmap.nvim"
+	"https://github.com/Zeioth/markmap.nvim",
+	"https://github.com/saghen/blink.cmp"
 })
 
 -- Treesitter Setup
@@ -116,7 +117,6 @@ require("mason").setup()
 require("mini.icons").setup()
 require("mini.pick").setup()
 require("mini.tabline").setup()
-require("mini.completion").setup()
 require("mini.starter").setup()
 require("mini.notify").setup()
 require("oil").setup()
@@ -162,6 +162,7 @@ require("markmap").setup({
 	hide_toolbar = false,
 	grace_period = 3600000
 })
+require("blink.cmp").setup()
 
 -- Hijinks in LSP land
 

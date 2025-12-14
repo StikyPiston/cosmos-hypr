@@ -4,6 +4,10 @@
       "rev": "aee7c41a9a9473117465132768ae4b4da97435c3",
       "src": "https://github.com/NStefan002/2048.nvim"
     },
+    "blink.cmp": {
+      "rev": "d4ba3e7c39543e588d1569532cbdd03d73d20c39",
+      "src": "https://github.com/saghen/blink.cmp"
+    },
     "coinflip.nvim": {
       "rev": "41a60a4297825eb10ffd4d4d6c01eaf8b4d66bc8",
       "src": "https://github.com/StikyPiston/coinflip.nvim"
