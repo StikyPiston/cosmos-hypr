@@ -17,7 +17,7 @@
       "src": "https://github.com/folke/flash.nvim"
     },
     "fzf-lua": {
-      "rev": "bd69cbae60eeb4589fbd285cb112265530fe1a5e",
+      "rev": "98c0e001d35395424fddc3514ecbb70792857cb6",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "fzf-nerdfont.nvim": {
@@ -45,7 +45,7 @@
       "src": "https://github.com/mason-org/mason.nvim"
     },
     "mini.nvim": {
-      "rev": "9087880da9ed1e5b06a28b75b4424fd8218bd189",
+      "rev": "6bd3a01aaf7d248aea1b78aacdd5d44bffa002c1",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
     "neowiki.nvim": {
