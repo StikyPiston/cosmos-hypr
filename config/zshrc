@@ -43,7 +43,7 @@ eval "$(starship init zsh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export HOMEBREW_NO_ENV_HINTS=1
 eval "$(fzf --zsh)"
-evoke list
+recall list
 redcards amount
 printf "󰆈  %s\n" "$(shuf -n 1 ~/.scripts/motds.txt)"
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
