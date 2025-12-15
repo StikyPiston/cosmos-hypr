@@ -8,7 +8,7 @@
 ## Installation
 There are *two methods* to install this rice
 
-### Method 1 - Using [Rancher](https://codeberg.org/StikyPiston/rancher)
+### Method 1 - Using [Dotkeeper](https://codeberg.org/StikyPiston/dotkeeper)
 
 Firstly, ensure you have **Dotkeeper** installed. Install **Dotkeeper** with:
 
@@ -16,13 +16,13 @@ Firstly, ensure you have **Dotkeeper** installed. Install **Dotkeeper** with:
 brew install stikypiston/formulae/dotkeeper
 ```
 
-Then, run `git clone https://codeberg.org/StikyPiston/cosmos-hypr ~/.dotkeep/cosmos-hypr`
+Then, run `dotkeeper fetch https://github.com/StikyPiston/cosmos-hypr`
 
-To activate the rice, ensure all dependencies are installed, and run `rancher activate cosmos-hypr`
+To activate the rice, ensure all dependencies are installed, and run `dotkeeper activate cosmos-hypr`
 
 ### Method 2 - Manual Install
 
-Run `git clone https://codeberg.org/StikyPiston/cosmos-hypr`
+Run `git clone https://github.com/StikyPiston/cosmos-hypr`
 
 Copy the contents of `config` to `~/.config/`
 
