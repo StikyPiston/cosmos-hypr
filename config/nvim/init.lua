@@ -245,3 +245,6 @@ vim.lsp.enable("tinymist")
 
 -- > Python LSP
 vim.lsp.enable("pyright")
+
+-- > Swift LSP
+vim.lsp.enable("sourcekit-lsp")
