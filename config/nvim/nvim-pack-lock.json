@@ -21,7 +21,7 @@
       "src": "https://github.com/folke/flash.nvim"
     },
     "fzf-lua": {
-      "rev": "e9c8828f216e419d3b7fa1292d18378b14368492",
+      "rev": "3b53b0eb26972686c5825d7c0e63b3cffd0c4f2b",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "fzf-nerdfont.nvim": {
@@ -85,7 +85,7 @@
       "src": "https://github.com/brenoprata10/nvim-highlight-colors"
     },
     "nvim-lspconfig": {
-      "rev": "f3979663c9c8cd9ad258344b9cfb5ad83cff61c1",
+      "rev": "ad95655ec5d13ff7c728d731eb9fd39f34395a03",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -113,7 +113,7 @@
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "7a43c8b444fa15b7736b34b248addb951126f723",
+      "rev": "686af1e08c47a72e1f969ba2b40a424446d882cf",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "skifree.nvim": {
