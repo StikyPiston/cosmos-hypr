@@ -2,7 +2,7 @@ input {
     keyboard {
         xkb {
 				layout "us"
-				variant "dvorak"
+				variant "qwerty"
 		}
         numlock
     }
@@ -40,7 +40,7 @@ environment {
 
 layout {
     gaps 16
-    center-focused-column "never"
+    center-focused-column "always"
     preset-column-widths {
         proportion 0.25
         proportion 0.5
@@ -48,7 +48,7 @@ layout {
         proportion 1.0
     }
 
-    default-column-width { proportion 0.5; }
+    default-column-width { proportion 0.9; }
     focus-ring {
         width 4
         active-gradient from="#F5BDE6" to="#C6A0F6" angle=45
