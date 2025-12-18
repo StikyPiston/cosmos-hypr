@@ -5,7 +5,7 @@
       "src": "https://github.com/NStefan002/2048.nvim"
     },
     "blink.cmp": {
-      "rev": "ee7cfac8e1d0bf9b90a27d7a9823c13389bead08",
+      "rev": "e72fc4443f2f91e023d0edd168074ba16898e970",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "coinflip.nvim": {
@@ -21,7 +21,7 @@
       "src": "https://github.com/folke/flash.nvim"
     },
     "fzf-lua": {
-      "rev": "3b53b0eb26972686c5825d7c0e63b3cffd0c4f2b",
+      "rev": "9d579feab4d3035627150e5e9b6e8fbf5e814ef6",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "fzf-nerdfont.nvim": {
@@ -85,7 +85,7 @@
       "src": "https://github.com/brenoprata10/nvim-highlight-colors"
     },
     "nvim-lspconfig": {
-      "rev": "ad95655ec5d13ff7c728d731eb9fd39f34395a03",
+      "rev": "c4f67bf85b01a57e3c130352c0a0e453ab8cd5b9",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -113,7 +113,7 @@
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "render-markdown.nvim": {
-      "rev": "686af1e08c47a72e1f969ba2b40a424446d882cf",
+      "rev": "07d088bf8bdadd159eb807b90eaee86a4778383f",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "skifree.nvim": {
@@ -125,7 +125,7 @@
       "src": "https://github.com/charmbracelet/tree-sitter-vhs"
     },
     "triforce.nvim": {
-      "rev": "d51e97c1be55bdbafd8b6e53b192f440e242f71d",
+      "rev": "202d95b2adcd6e98c175cf786f5200e620595c48",
       "src": "https://github.com/gisketch/triforce.nvim"
     },
     "typr": {
