@@ -228,6 +228,7 @@ binds {
 	Mod+Shift+Grave { spawn "wlogout"; }
 	Mod+Semicolon { spawn "flatpak " "run " "app.zen_browser.zen"; }
 	Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
+	Mod+N { spawn "swaync-client" "-t";}
 }
 
 overview {
