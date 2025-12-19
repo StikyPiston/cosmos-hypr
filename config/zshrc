@@ -1,5 +1,10 @@
 # .zshrc
 
+# Plugin stuff
+source /home/linuxbrew/.linuxbrew/opt/zinit/zinit.zsh
+zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+
 alias ls='eza --icons=always --group-directories-first'
 alias l='ls'
 alias la='ls -a'
@@ -46,8 +51,6 @@ eval "$(fzf --zsh)"
 recall list
 redcards amount
 printf "󰆈  %s\n" "$(shuf -n 1 ~/.scripts/motds.txt)"
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 export FZF_DEFAULT_OPTS=" \
 		--tmux \
