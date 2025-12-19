@@ -45,10 +45,11 @@ layout {
         proportion 0.25
         proportion 0.5
         proportion 0.75
-        proportion 0.9
+		proportion 0.9
+        proportion 0.95
     }
 
-    default-column-width { proportion 0.9; }
+    default-column-width { proportion 0.95; }
     focus-ring {
         width 4
         active-gradient from="#F5BDE6" to="#C6A0F6" angle=45
