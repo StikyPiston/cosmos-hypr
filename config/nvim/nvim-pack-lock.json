@@ -5,7 +5,7 @@
       "src": "https://github.com/NStefan002/2048.nvim"
     },
     "blink.cmp": {
-      "rev": "e72fc4443f2f91e023d0edd168074ba16898e970",
+      "rev": "37ce860d8eeeee92d60b9a72db21e369d97e6a75",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "coinflip.nvim": {
@@ -125,7 +125,7 @@
       "src": "https://github.com/charmbracelet/tree-sitter-vhs"
     },
     "triforce.nvim": {
-      "rev": "202d95b2adcd6e98c175cf786f5200e620595c48",
+      "rev": "9eca022c303e3b86ad0c6684e37b08618667e3cf",
       "src": "https://github.com/gisketch/triforce.nvim"
     },
     "typr": {
