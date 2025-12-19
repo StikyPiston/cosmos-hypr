@@ -85,6 +85,12 @@ window-rule {
     default-column-width {}
 }
 
+window-rule {
+	match app-id=r#"^app\.zen_browser\.zen"#
+	opacity 0.9
+	draw-border-with-background false
+}
+
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
